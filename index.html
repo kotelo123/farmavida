@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FarmaVida</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>FarmaVida - Tienda Online</h1>
+  </header>
+
+  <section id="productos"></section>
+
+  <section id="carrito">
+    <h2>Carrito de compras</h2>
+    <ul id="lista-carrito"></ul>
+    <p>Total: $<span id="total">0</span></p>
+    <button onclick="vaciarCarrito()">Vaciar carrito</button>
+  </section>
+
+  <script src="productos.json" type="application/json"></script>
+  <script src="main.js"></script>
+  <script src="carrito.js"></script>
+</body>
+</html>
+
